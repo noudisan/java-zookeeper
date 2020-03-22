@@ -1,0 +1,5 @@
+Curator也解决了很多Zookeeper客户端非常底层的细节开发工作，包括连接重连、Watcher反复注册和NodeExistsException异常。
+
+Curator还在Zookeeper原生API的基础上进行了包装，提供了一套易用性和可读性更强的Fluent风格的客户端API框架。
+
+除此之外，Curator中还提供了Zookeeper各种应用场景（共享锁、Master选择、分布式计数器等）抽象封装。
